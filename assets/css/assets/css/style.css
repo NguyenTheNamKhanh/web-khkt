@@ -1,0 +1,21 @@
+.hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-actions .btn,
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .topic-card,
+  .info-card,
+  .content-card,
+  .tool-card {
+    padding: 20px;
+  }
+
+  .brand-text span {
+    font-size: 10px;
+  }
+}
