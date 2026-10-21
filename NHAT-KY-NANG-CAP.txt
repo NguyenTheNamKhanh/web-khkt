@@ -1,0 +1,29 @@
+GÓC LỚP 12 — NHẬT KÝ NÂNG CẤP
+Phiên bản: 2026-10-21
+
+1. Giao diện và trải nghiệm
+- Bổ sung thanh tiến trình đọc trang và nút quay lên đầu trang.
+- Tinh chỉnh chuyển động hover, trạng thái focus bàn phím và hiệu ứng xuất hiện.
+- Tôn trọng cài đặt giảm chuyển động của thiết bị (prefers-reduced-motion).
+- Đồng bộ phiên bản CSS/JS trên các trang để hạn chế cache cũ.
+
+2. Góc học sinh
+- Thêm nút đọc lời động viên bằng giọng đọc của trình duyệt (Web Speech API nếu được hỗ trợ).
+- Thêm nút dừng đọc; tự dừng đọc khi rời trang.
+- Tăng khả năng thông báo trạng thái cho người dùng.
+- Làm rõ rằng nội dung chỉ hiển thị trong phiên trang hiện tại, không phải dịch vụ có người trực tiếp đọc.
+
+3. Góc Chill
+- Giữ các trò chơi mini, lời nhắn tích cực và bài nghỉ thở hiện có.
+- Tinh chỉnh trải nghiệm tương tác và khả năng tiếp cận.
+
+4. Kiểm tra kỹ thuật
+- Kiểm tra cú pháp JavaScript bằng Node.js: đạt.
+- Kiểm tra các đường dẫn HTML/CSS/JS/hình ảnh nội bộ: không phát hiện tệp thiếu.
+- Chưa triển khai thử trên máy chủ hosting thật; sau khi tải lên nên kiểm tra lại trên hosting của bạn.
+
+Cài đặt:
+- Giải nén ZIP.
+- Tải toàn bộ nội dung bên trong thư mục vào web root (ví dụ public_html), giữ nguyên thư mục assets.
+- Không chỉ tải riêng index.html.
+- Sau khi tải lên, dùng Ctrl+F5 để làm mới bộ nhớ đệm.

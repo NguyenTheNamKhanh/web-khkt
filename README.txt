@@ -22,3 +22,13 @@ LƯU Ý QUAN TRỌNG
 Khi triển khai công khai, cần kiểm tra liên kết, khả năng truy cập, nội dung chuyên môn, quyền riêng tư và quy trình chuyển tiếp trường hợp cần hỗ trợ. Nếu thu thập dữ liệu thật, cần xây dựng máy chủ bảo mật, thông báo quyền riêng tư rõ ràng, quyền truy cập giới hạn và cơ chế xóa dữ liệu.
 
 Trẻ em tại Việt Nam cần hỗ trợ về bảo vệ trẻ em có thể liên hệ Tổng đài 111 (miễn phí, 24/7).
+
+
+CAP NHAT PHIEN BAN 2026-10-21
+- Bo sung thanh tien trinh doc trang va nut quay len dau trang.
+- Bo sung nut doc loi dong vien bang Speech Synthesis cua trinh duyet (neu thiet bi ho tro) va nut dung doc.
+- Them hieu ung hien thi nhe, trang thai focus ro rang, va ho tro prefers-reduced-motion.
+- Dong bo query version tai nguyen de giam loi cache sau khi cap nhat.
+- Kiem tra lai cac duong dan tai nguyen noi bo: khong phat hien duong dan thieu.
+- Sua noi dung thong bao de khong khang dinh tin nhan duoc luu lau dai tren thiet bi.
+Luu y: tinh nang doc loi dong vien can trinh duyet co ho tro Web Speech API; giong doc phu thuoc he dieu hanh/trinh duyet.
