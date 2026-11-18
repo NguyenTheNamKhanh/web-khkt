@@ -1,76 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Góc Lớp 12 — Hỗ trợ tâm lý & Học tập</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b72">
+  <meta name="description" content="GÓC LỚP 12 — Cổng thông tin về áp lực học tập, sức khỏe tinh thần, định hướng tương lai và giải pháp dành cho học sinh cuối cấp.">
+  <title>GÓC LỚP 12 — Hiểu mình, vững bước</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>🎓 Góc Lớp 12</h1>
-            <p class="subhead">Không gian chia sẻ, quản lý áp lực và học tập hiệu quả</p>
-        </div>
-    </header>
-
-    <nav class="main-nav">
-        <div class="container">
-            <a href="index.html" class="active">Trang chủ</a>
-            <a href="ap-luc.html">Nhận diện áp lực</a>
-            <a href="giai-phap.html">Giải pháp</a>
-            <a href="cong-cu.html">Công cụ</a>
-            <a href="goc-hoc-sinh.html">Góc học sinh</a>
-            <a href="kien-thuc.html">Kiến thức</a>
-            <a href="tim-ho-tro.html">Tìm hỗ trợ</a>
-        </div>
+  <div class="topbar"><div class="container topbar-inner"><span>CỔNG THÔNG TIN DÀNH CHO HỌC SINH LỚP 12</span><span>Hiểu mình · Vững bước · Tự tin</span></div></div>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Góc Lớp 12 - Trang chủ"><span class="brand-mark">12</span><span><strong>GÓC LỚP 12</strong><small>Góc nhìn tuổi học trò</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Mở menu">☰</button>
+    <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+      <a href="index.html">Trang chủ</a><a href="ap-luc.html">Các dạng áp lực</a><a href="giai-phap.html">Giải pháp</a><a href="cong-cu.html">Công cụ</a><a href="goc-hoc-sinh.html">Góc học sinh</a><a href="tim-ho-tro.html">Tìm hỗ trợ</a><a href="goc-chill.html">Góc Chill</a>
     </nav>
-
-    <main class="container">
-        <section class="intro-card">
-            <h2>Chào bạn 👋</h2>
-            <p>Năm cuối cấp không hề dễ dàng. Áp lực học tập, lo lắng cho kỳ thi và tương lai là những điều hoàn toàn bình thường. Trang web này được tạo ra như một người bạn đồng hành — giúp bạn hiểu rõ hơn cảm xúc của mình, quản lý căng thẳng và học tập một cách thông minh hơn.</p>
-            <p class="muted">💡 Không có ai phải đối mặt với mọi thứ một mình.</p>
-        </section>
-
-        <section class="feature-grid">
-            <div class="feature-card">
-                <h3>🧠 Nhận diện áp lực</h3>
-                <p>Hiểu dấu hiệu và mức độ căng thẳng của bạn</p>
-                <a href="ap-luc.html" class="btn">Tìm hiểu →</a>
-            </div>
-            <div class="feature-card">
-                <h3>💪 Giải pháp hành động</h3>
-                <p>Các cách thực tế để giảm căng thẳng và học hiệu quả</p>
-                <a href="giai-phap.html" class="btn">Xem ngay →</a>
-            </div>
-            <div class="feature-card">
-                <h3>🛠️ Công cụ hữu ích</h3>
-                <p>Bộ hẹn giờ Pomodoro, nhật ký cảm xúc, kế hoạch học tập</p>
-                <a href="cong-cu.html" class="btn">Sử dụng →</a>
-            </div>
-            <div class="feature-card">
-                <h3>💌 Góc chia sẻ</h3>
-                <p>Viết điều đang bận lòng, nhận lời động viên ẩn danh</p>
-                <a href="goc-hoc-sinh.html" class="btn">Bắt đầu →</a>
-            </div>
-        </section>
-
-        <section class="quick-note">
-            <h3>📌 Lời nhắn nhỏ</h3>
-            <p>Điểm số không định nghĩa giá trị của bạn. Sức khỏe và hạnh quan trọng hơn bất kỳ kỳ thi nào. Hãy tử tế với chính mình nhé ❤️</p>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>Góc Lớp 12 — Dự án Khoa học Kỹ thuật 2026-2027</p>
-            <p class="muted">Đây là trang web giáo dục tĩnh, không thay thế tư vấn chuyên môn. Cần giúp đỡ? Gọi <strong>Tổng đài 111</strong> — miễn phí, 24/7</p>
-            <p><a href="quyen-rieng-tu.html">Quyền riêng tư & Giới hạn sử dụng</a></p>
-            <button id="theme-toggle" class="theme-btn">🌙 Chế độ tối</button>
-        </div>
-    </footer>
-
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
+  </div></header>
+  <main>
+    <section class="hero"><div class="container hero-grid">
+      <div class="hero-copy"><span class="eyebrow"><span class="live-dot"></span> ĐỒNG HÀNH CÙNG HỌC SINH CUỐI CẤP</span>
+        <h1>Lớp 12 nhiều áp lực.<br><span>Đừng đi qua một mình.</span></h1>
+        <p class="lead">Một cổng thông tin để hiểu điều mình đang trải qua, tìm cách học phù hợp, chăm sóc cảm xúc và chuẩn bị cho hành trình phía trước — từng bước một.</p>
+        <div class="hero-actions"><a class="button button-primary" href="ap-luc.html">Khám phá các dạng áp lực <span aria-hidden="true">→</span></a><a class="button button-outline" href="goc-hoc-sinh.html">Góc học sinh ♡</a></div>
+        <div class="hero-note"><span>✦</span> Không cần hoàn hảo. Chỉ cần bắt đầu từ điều nhỏ nhất.</div>
+      </div>
+      <div class="hero-visual" aria-label="Thông điệp tích cực dành cho học sinh"><div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div><div class="visual-sun">✦</div><div class="visual-card visual-card-top"><span>01</span><div><b>Hiểu mình</b><small>Gọi tên điều đang diễn ra</small></div></div><div class="visual-main"><span class="visual-main-icon">✿</span><b>Mỗi người một<br>nhịp trưởng thành</b><small>YOUR PACE MATTERS</small></div><div class="visual-card visual-card-bottom"><span>02</span><div><b>Từng bước nhỏ</b><small>Tiến bộ không cần vội vàng</small></div></div></div>
+    </div></section>
+    <section class="ticker"><div class="container ticker-inner"><strong>GÓC NHÌN HÔM NAY</strong><span>Áp lực không định nghĩa con người bạn.</span><a href="giai-phap.html">Tìm cách bắt đầu <span aria-hidden="true">→</span></a></div></section>
+    <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">CÙNG NHÌN LẠI</span><h2>Điều gì đang khiến bạn nặng lòng?</h2><p>Mỗi áp lực có nguyên nhân khác nhau. Hiểu đúng vấn đề sẽ giúp ta tìm cách giải quyết thực tế hơn.</p></div><a class="text-link" href="ap-luc.html">Xem tất cả chủ đề →</a></div>
+      <div class="card-grid">
+        <article class="topic-card"><div class="card-topline"><span class="icon-tile blue">▤</span><span class="tag">HỌC TẬP</span></div><h3>Áp lực điểm số và thi cử</h3><p>Lịch ôn tập dày, kiến thức chưa vững và nỗi lo kết quả có thể khiến việc học trở nên quá tải.</p><a class="card-link" href="ap-luc.html#hoc-tap">Đọc bài viết <span>→</span></a></article>
+        <article class="topic-card"><div class="card-topline"><span class="icon-tile lilac">♡</span><span class="tag">CẢM XÚC</span></div><h3>Căng thẳng và kiệt sức</h3><p>Nhận biết dấu hiệu mình cần nghỉ ngơi, được lắng nghe và tìm sự hỗ trợ phù hợp.</p><a class="card-link" href="ap-luc.html#tam-ly">Đọc bài viết <span>→</span></a></article>
+        <article class="topic-card"><div class="card-topline"><span class="icon-tile amber">⌁</span><span class="tag">TƯƠNG LAI</span></div><h3>Chọn ngành, chọn hướng đi</h3><p>Tương lai có nhiều lựa chọn. Không biết ngay câu trả lời không có nghĩa là bạn đang chậm hơn người khác.</p><a class="card-link" href="ap-luc.html#tuong-lai">Đọc bài viết <span>→</span></a></article>
+      </div>
+    </div></section>
+    <section class="section section-tint"><div class="container"><div class="section-heading"><div><span class="eyebrow">BỘ CÔNG CỤ CỦA BẠN</span><h2>Biến sự lo lắng thành bước đi cụ thể</h2><p>Thử một cách học dễ duy trì, xây dựng kế hoạch thực tế và chủ động tìm người đồng hành khi cần.</p></div></div>
+      <div class="feature-grid">
+        <a class="feature-card" href="giai-phap.html"><span class="feature-number">01 / GIẢI PHÁP</span><span class="feature-icon">↗</span><h3>Những cách làm có thể bắt đầu hôm nay</h3><p>Quản lý thời gian, đối diện kỳ vọng và chăm sóc sức khỏe tinh thần.</p><span class="feature-arrow">Khám phá giải pháp →</span></a>
+        <a class="feature-card" href="cong-cu.html"><span class="feature-number">02 / CÔNG CỤ</span><span class="feature-icon">◷</span><h3>Góc lập kế hoạch học tập</h3><p>Danh sách việc cần làm và đồng hồ tập trung ngay trên trình duyệt.</p><span class="feature-arrow">Mở công cụ →</span></a>
+        <a class="feature-card feature-dark" href="goc-hoc-sinh.html"><span class="feature-number">03 / GÓC HỌC SINH</span><span class="feature-icon">♡</span><h3>Một khoảng dừng dành riêng cho bạn</h3><p>Chọn chủ đề, mô tả cảm xúc và nhận gợi ý để suy nghĩ bước tiếp theo.</p><span class="feature-arrow">Vào Góc học sinh →</span></a>
+        <a class="feature-card feature-chill" href="goc-chill.html"><span class="feature-number">04 / GÓC CHILL</span><span class="feature-icon">✦</span><h3>Đổi nhịp với vài phút thư giãn</h3><p>Thử trò ghép cặp, câu đố vui và những hoạt động nhẹ nhàng ngay trên website.</p><span class="feature-arrow">Khám phá Góc Chill →</span></a>
+      </div>
+    </div></section>
+    <section class="section"><div class="container feature-band"><div><span class="eyebrow eyebrow-light">ĐỪNG NGẠI TÌM SỰ HỖ TRỢ</span><h2>Bạn không phải tự xoay xở với tất cả mọi thứ.</h2><p>Trò chuyện với người lớn đáng tin cậy, giáo viên hoặc chuyên viên tâm lý học đường có thể giúp bạn nhìn thấy những lựa chọn mà lúc căng thẳng mình khó nhận ra.</p></div><a class="button button-light" href="tim-ho-tro.html">Tìm nơi để bắt đầu →</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand brand-footer" href="index.html"><span class="brand-mark">12</span><span><strong>GÓC LỚP 12</strong><small>Hiểu mình · Vững bước · Tự tin</small></span></a><p class="footer-about">Cổng thông tin chia sẻ kiến thức và những gợi ý thực tế dành cho học sinh lớp 12.</p></div><div><h3>Khám phá</h3><a href="ap-luc.html">Các dạng áp lực</a><a href="giai-phap.html">Giải pháp</a><a href="cong-cu.html">Công cụ học tập</a></div><div><h3>Đồng hành</h3><a href="goc-hoc-sinh.html">Góc học sinh</a><a href="tim-ho-tro.html">Tìm hỗ trợ</a><a href="goc-chill.html">Góc Chill</a><a href="README.md">Thông tin dự án</a></div></div><div class="container footer-bottom"><span>© <span data-current-year></span> GÓC LỚP 12</span><span>Nội dung mang tính giáo dục và tham khảo.</span></div></footer>
+</body></html>

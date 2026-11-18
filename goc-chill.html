@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b72">
+  <meta name="description" content="Góc Chill của GÓC LỚP 12: trò ghép cặp, câu đố vui và hoạt động thư giãn ngắn dành cho học sinh.">
+  <title>Góc Chill | GÓC LỚP 12</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/chill.js" defer></script>
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><span>CỔNG THÔNG TIN DÀNH CHO HỌC SINH LỚP 12</span><span>Học tập cân bằng · Nghỉ ngơi vừa đủ</span></div></div>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">12</span><span><strong>GÓC LỚP 12</strong><small>Góc nhìn tuổi học trò</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Mở menu">☰</button>
+    <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+      <a href="index.html">Trang chủ</a><a href="ap-luc.html">Các dạng áp lực</a><a href="giai-phap.html">Giải pháp</a><a href="cong-cu.html">Công cụ</a><a href="goc-hoc-sinh.html">Góc học sinh</a><a href="tim-ho-tro.html">Tìm hỗ trợ</a><a href="goc-chill.html">Góc Chill</a>
+    </nav>
+  </div></header>
+  <main>
+    <section class="page-banner chill-banner"><div class="container">
+      <div class="breadcrumb"><a href="index.html">Trang chủ</a><span>/</span><span>Góc Chill</span></div>
+      <span class="eyebrow">MỘT KHOẢNG NGHỈ NHẸ NHÀNG</span>
+      <h1>Đổi nhịp một chút nhé!</h1>
+      <p>Đây là góc giải trí nhỏ với vài trò chơi ngắn. Bạn có thể ghé qua thư giãn rồi quay lại việc đang làm khi sẵn sàng.</p>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-heading"><div><span class="eyebrow">TRÒ CHƠI 01</span><h2>Lật thẻ tìm cặp</h2><p>Mở hai thẻ mỗi lượt và tìm những biểu tượng giống nhau. Trò chơi chạy ngay trên thiết bị, không cần đăng nhập.</p></div><span class="chill-pill">🧩 Ghép cặp</span></div>
+      <section class="game-panel memory-panel" aria-label="Trò chơi ghép cặp">
+        <div class="game-toolbar"><span id="memory-progress">Đã tìm: 0/6 cặp</span><span id="memory-moves">Lượt: 0</span><button class="button button-outline button-small" id="memory-restart" type="button">Chơi lại</button></div>
+        <div class="memory-grid" id="memory-grid" aria-label="Các thẻ úp"></div>
+        <p id="memory-status" class="game-status" role="status" aria-live="polite">Chọn hai thẻ để bắt đầu tìm cặp nhé.</p>
+      </section>
+    </div></section>
+    <section class="section section-tint"><div class="container">
+      <div class="section-heading"><div><span class="eyebrow">TRÒ CHƠI 02</span><h2>Câu đố vui nhanh</h2><p>Chọn đáp án bạn nghĩ là đúng. Mỗi câu là một kiến thức vui, không tính điểm hay xếp hạng.</p></div><span class="chill-pill">💡 Đố vui</span></div>
+      <section class="game-panel quiz-panel" aria-label="Câu đố vui">
+        <div class="quiz-meta"><span id="quiz-number">CÂU 1/4</span><span>Không áp lực điểm số</span></div>
+        <h3 id="quiz-question">Khi cần ghi nhớ một nội dung dài, cách nào thường hữu ích?</h3>
+        <div class="quiz-options" id="quiz-options">
+          <button type="button" class="quiz-option" data-answer="0">Đọc lướt liên tục mà không nghỉ</button>
+          <button type="button" class="quiz-option" data-answer="1">Chia nội dung thành phần nhỏ và tự nhắc lại</button>
+          <button type="button" class="quiz-option" data-answer="2">Cố học tất cả trong một lần</button>
+        </div>
+        <p id="quiz-feedback" class="game-status" role="status" aria-live="polite">Chọn một đáp án để xem lời giải thích.</p>
+        <button class="button button-primary" id="quiz-next" type="button" disabled>Câu tiếp theo →</button>
+      </section>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-heading"><div><span class="eyebrow">GỢI Ý NGHỈ GIẢI LAO</span><h2>Chọn một hoạt động ngẫu nhiên</h2><p>Không cần chuẩn bị gì đặc biệt. Chọn một gợi ý nhỏ phù hợp với không gian và thời gian hiện tại.</p></div></div>
+      <div class="activity-card"><div class="activity-icon" aria-hidden="true">☀</div><div><span class="eyebrow">GỢI Ý CỦA GÓC CHILL</span><h3 id="activity-suggestion">Nghe một bản nhạc bạn yêu thích.</h3><p id="activity-note">Dành vài phút rời mắt khỏi màn hình và tận hưởng giai điệu.</p></div><button class="button button-outline" id="activity-random" type="button">Gợi ý khác ↻</button></div>
+      <p class="chill-note">Góc Chill được thiết kế để giải trí lành mạnh. Hãy chủ động dừng lại khi đã thấy đủ và quay lại lịch sinh hoạt phù hợp với mình.</p>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid">
+    <div><a class="brand brand-footer" href="index.html"><span class="brand-mark">12</span><span><strong>GÓC LỚP 12</strong><small>Hiểu mình · Vững bước · Tự tin</small></span></a><p class="footer-about">Một không gian thông tin, đồng hành và thư giãn dành cho học sinh lớp 12.</p></div>
+    <div><h3>Khám phá</h3><a href="ap-luc.html">Các dạng áp lực</a><a href="giai-phap.html">Giải pháp</a><a href="cong-cu.html">Công cụ học tập</a></div>
+    <div><h3>Đồng hành</h3><a href="goc-hoc-sinh.html">Góc học sinh</a><a href="tim-ho-tro.html">Tìm hỗ trợ</a></div>
+  </div><div class="container footer-bottom"><span>© <span data-current-year></span> GÓC LỚP 12</span><span>Giải trí cân bằng · Tôn trọng nhịp riêng</span></div></footer>
+</body>
+</html>

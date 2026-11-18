@@ -1,81 +1,27 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Góc Học Sinh — Góc Lớp 12</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header class="mini-hero">
-        <div class="container">
-            <h1>💌 Góc học sinh</h1>
-            <p>Bạn không cần kể hết mọi chuyện hay ghi tên thật. Viết vài dòng về điều đang khiến bạn bận lòng</p>
-        </div>
-    </header>
-
-    <nav class="main-nav">
-        <div class="container">
-            <a href="index.html">Trang chủ</a>
-            <a href="ap-luc.html">Nhận diện áp lực</a>
-            <a href="giai-phap.html">Giải pháp</a>
-            <a href="cong-cu.html">Công cụ</a>
-            <a href="goc-hoc-sinh.html" class="active">Góc học sinh</a>
-            <a href="kien-thuc.html">Kiến thức</a>
-            <a href="tim-ho-tro.html">Tìm hỗ trợ</a>
-        </div>
-    </nav>
-
-    <main class="container">
-        <div class="warning-box">
-            <p>⚠️ <strong>Lưu ý quan trọng:</strong> Đừng ghi họ tên, số điện thoại, địa chỉ, tên trường/lớp hoặc thông tin cá nhân nào. Tin nhắn chỉ hiển thị trên trình duyệt của bạn và không được gửi đi đâu cả. Đây không phải dịch vụ tư vấn trực tuyến.</p>
-        </div>
-
-        <section class="share-section">
-            <h2>Điều gì đang ở trong tâm trí bạn hôm nay?</h2>
-            <p class="hint">Ví dụ: Mình đang lo vì kỳ thi sắp tới và không biết bắt đầu ôn từ đâu…</p>
-            
-            <textarea id="student-input" placeholder="Bạn có thể viết điều đang nghĩ ở đây..."></textarea>
-            
-            <div class="button-row">
-                <button id="generate-btn" class="btn btn-primary btn-large">✨ Nhận lời động viên</button>
-                <button id="clear-btn" class="btn btn-secondary">🗑 Xóa nội dung</button>
-            </div>
-        </section>
-
-        <section id="message-result" class="result-section hidden">
-            <div class="message-card">
-                <div class="icon-heart">💛</div>
-                <h3>Lời nhắn dành cho bạn</h3>
-                <p id="encouragement-text" class="encouragement"></p>
-                <p class="muted">— Từ một người bạn đồng hành —</p>
-            </div>
-            
-            <div class="save-share-buttons">
-                <button id="save-fav" class="btn btn-outline">⭐ Lưu vào yêu thích</button>
-                <button id="copy-text" class="btn btn-outline">📋 Sao chép lời nhắn</button>
-                <button id="new-message" class="btn btn-primary">💬 Viết tin nhắn mới</button>
-            </div>
-        </section>
-
-        <section id="favorites-section" class="favorites-section">
-            <h3>⭐ Lời nhắn tôi yêu thích</h3>
-            <div id="favorites-list">
-                <p class="muted">Chưa có lời nhắn nào được lưu. Khi xem được lời nhắn bạn thích, nhấn nút "Lưu vào yêu thích" nhé!</p>
-            </div>
-            <button id="clear-favorites" class="btn btn-small btn-danger">Xóa danh sách yêu thích</button>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>Góc Lớp 12 — Dự án Khoa học Kỹ thuật 2026-2027</p>
-            <p class="muted">Tin nhắn chỉ hiển thị trên thiết bị của bạn</p>
-            <p><a href="quyen-rieng-tu.html">Quyền riêng tư & Giới hạn sử dụng</a></p>
-            <button id="theme-toggle" class="theme-btn">🌙 Chế độ tối</button>
-        </div>
-    </footer>
-
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Không gian chia sẻ và tự nhìn lại dành cho học sinh lớp 12 với các gợi ý động viên theo chủ đề và cảm xúc."><title>Góc học sinh | GÓC LỚP 12</title><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/main.js" defer></script><script src="assets/js/advice.js" defer></script></head>
+<body><div class="topbar"><div class="container topbar-inner"><span>CỔNG THÔNG TIN DÀNH CHO HỌC SINH LỚP 12</span><span>Hiểu mình · Vững bước · Tự tin</span></div></div><header class="site-header"><div class="container header-inner"><a class="brand" href="index.html"><span class="brand-mark">12</span><span><strong>GÓC LỚP 12</strong><small>Góc nhìn tuổi học trò</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Mở menu">☰</button><nav class="main-nav" id="main-nav"><a href="index.html">Trang chủ</a><a href="ap-luc.html">Các dạng áp lực</a><a href="giai-phap.html">Giải pháp</a><a href="cong-cu.html">Công cụ</a><a href="goc-hoc-sinh.html">Góc học sinh</a><a href="tim-ho-tro.html">Tìm hỗ trợ</a><a href="goc-chill.html">Góc Chill</a></nav></div></header>
+<main><section class="page-banner"><div class="container"><div class="breadcrumb"><a href="index.html">Trang chủ</a><span>/</span><span>Góc học sinh</span></div><span class="eyebrow">MỘT KHOẢNG DỪNG DÀNH CHO BẠN</span><h1>Không cần phải ổn mọi lúc.</h1><p>Chọn chủ đề, gọi tên cảm xúc và viết điều đang khiến bạn bận tâm. Bạn sẽ nhận được những gợi ý tham khảo để cân nhắc bước tiếp theo.</p></div></section>
+<section class="section"><div class="container support-wrap"><div class="support-intro"><div class="support-intro-mark">♡</div><h2>Bạn có thể bắt đầu từ điều nhỏ nhất.</h2><p>Không cần kể nhiều hơn mức bạn thấy thoải mái. Hãy tránh ghi mật khẩu, địa chỉ nhà, số điện thoại hoặc thông tin nhận dạng cá nhân.</p><div class="support-points"><span>✓ Không cần câu chữ hoàn hảo</span><span>✓ Chọn cảm xúc của mình</span><span>✓ Gợi ý riêng theo lựa chọn</span></div></div>
+<form id="support-form" class="support-form" novalidate>
+  <div class="form-step-title"><span>01</span><div><h3>Điều gì đang khiến bạn bận tâm?</h3><p>Chọn chủ đề gần với hoàn cảnh của bạn.</p></div></div>
+  <div class="topic-options">
+    <label class="topic-option"><input type="radio" name="topic" value="study" checked><span class="topic-emoji">📚</span><span><strong>Học tập, thi cử</strong><small>Điểm số, bài vở</small></span></label>
+    <label class="topic-option"><input type="radio" name="topic" value="mind"><span class="topic-emoji">🌧️</span><span><strong>Tâm lý, cảm xúc</strong><small>Lo lắng, căng thẳng</small></span></label>
+    <label class="topic-option"><input type="radio" name="topic" value="future"><span class="topic-emoji">🧭</span><span><strong>Tương lai</strong><small>Ngành học, nghề nghiệp</small></span></label>
+    <label class="topic-option"><input type="radio" name="topic" value="family"><span class="topic-emoji">🏡</span><span><strong>Gia đình</strong><small>Kỳ vọng, giao tiếp</small></span></label>
+    <label class="topic-option"><input type="radio" name="topic" value="friends"><span class="topic-emoji">🤝</span><span><strong>Bạn bè</strong><small>Tình bạn, hiểu lầm</small></span></label>
+    <label class="topic-option"><input type="radio" name="topic" value="other"><span class="topic-emoji">✨</span><span><strong>Chuyện khác</strong><small>Điều riêng của bạn</small></span></label>
+  </div>
+  <div class="form-divider"></div>
+  <div class="form-step-title"><span>02</span><div><h3>Bạn cảm thấy thế nào?</h3><p>Không có cảm xúc nào là sai.</p></div></div>
+  <input type="hidden" id="support-mood" value="overwhelmed">
+  <div class="mood-options"><button type="button" class="mood-option is-selected" data-mood="overwhelmed" aria-pressed="true"><span>😵‍💫</span><small>Quá tải</small></button><button type="button" class="mood-option" data-mood="anxious" aria-pressed="false"><span>😟</span><small>Lo lắng</small></button><button type="button" class="mood-option" data-mood="tired" aria-pressed="false"><span>😴</span><small>Mệt mỏi</small></button><button type="button" class="mood-option" data-mood="confused" aria-pressed="false"><span>🫤</span><small>Bối rối</small></button><button type="button" class="mood-option" data-mood="lonely" aria-pressed="false"><span>🫂</span><small>Cô đơn</small></button><button type="button" class="mood-option" data-mood="okay" aria-pressed="false"><span>🌤️</span><small>Khá ổn</small></button></div>
+  <div class="form-divider"></div>
+  <div class="form-step-title"><span>03</span><div><h3>Viết lời chia sẻ của bạn</h3><p>Chỉ chia sẻ phần bạn cảm thấy an toàn khi viết ra.</p></div></div>
+  <label class="field-label" for="support-message">Lời nhắn</label><textarea id="support-message" maxlength="2000" minlength="5" rows="6" placeholder="Ví dụ: Dạo này mình cảm thấy áp lực vì có quá nhiều bài phải học..." required></textarea><div class="char-row"><span>Nội dung được xử lý trên thiết bị của bạn trong phiên bản này.</span><span id="support-char-count">0/2000</span></div>
+  <button class="button button-primary submit-advice" type="submit">Gợi ý dành cho mình <span>→</span></button><p id="support-status" class="form-status" role="status" aria-live="polite"></p>
+</form></div>
+<section class="advice-result" id="support-result" hidden aria-live="polite" aria-labelledby="support-result-title"><div class="result-head"><div><span class="eyebrow">✦ GỢI Ý DÀNH CHO BẠN</span><h2 id="support-result-title">Mình cùng bắt đầu nhé.</h2></div><span class="result-flower" aria-hidden="true">🌱</span></div><p class="result-intro" id="support-result-intro"></p><div class="result-columns"><div class="result-card"><span class="mini-label">KẾ HOẠCH NHỎ</span><h3>Ba bước bạn có thể thử</h3><ol id="support-result-steps"></ol></div><div class="result-card result-reset"><span class="mini-label">DÀNH MỘT KHOẢNG NGHỈ</span><h3>Một phút cho chính mình</h3><p id="support-result-reset"></p><div class="breathing-orb" aria-hidden="true"><span></span></div><small>Đi chậm lại cũng là một lựa chọn.</small></div></div><div class="result-reminder"><span>💌</span><p id="support-result-reminder"></p></div><div class="result-actions"><button class="button button-primary" id="support-speak" type="button">🔊 Đọc gợi ý</button><button class="button button-outline" id="support-stop-speak" type="button" disabled>Dừng đọc</button><button class="button button-outline" id="support-copy-plan" type="button">Sao chép kế hoạch</button><button class="button button-outline" id="support-start-over" type="button">Viết lời chia sẻ mới</button></div><p id="support-speech-status" class="form-status" role="status" aria-live="polite"></p><p id="support-copy-status" class="form-status" role="status" aria-live="polite"></p></section>
+<p class="disclaimer">Đây là công cụ tự hỗ trợ với các gợi ý viết sẵn, không phải chuyên gia tư vấn, không chẩn đoán và không thay thế hỗ trợ chuyên môn. Nếu bạn cảm thấy không an toàn hoặc có nguy cơ bị tổn thương, hãy tìm người lớn đáng tin cậy ở gần và liên hệ dịch vụ khẩn cấp tại nơi bạn sống khi cần.</p></div></section></main>
+<footer class="site-footer"><div class="container footer-grid"><div><a class="brand brand-footer" href="index.html"><span class="brand-mark">12</span><span><strong>GÓC LỚP 12</strong><small>Hiểu mình · Vững bước · Tự tin</small></span></a><p class="footer-about">Cổng thông tin dành cho học sinh lớp 12.</p></div><div><h3>Khám phá</h3><a href="ap-luc.html">Các dạng áp lực</a><a href="giai-phap.html">Giải pháp</a></div><div><h3>Đồng hành</h3><a href="cong-cu.html">Công cụ học tập</a><a href="tim-ho-tro.html">Tìm hỗ trợ</a><a href="goc-chill.html">Góc Chill</a></div></div><div class="container footer-bottom"><span>© <span data-current-year></span> GÓC LỚP 12</span><span>Không lưu hoặc gửi lời nhắn đi nơi khác.</span></div></footer></body></html>
